@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Abolition Regular";
+    src: url('../fonts/abolition-regular-webfont.woff') format('woff');
+}
+
 * {
     box-sizing: border-box;
 }
@@ -5,8 +10,45 @@ html {
     font-size: 1.25em;
 }
 body {
-    font-family: Verdana;
+    margin: 1rem;
+    color: #454959;
+    font: 300 100%/1.5 'Work Sans', sans-serif;
+
 }
+h1, h2 {
+    font: normal 100%/1.1 'Abolition Regular', Impact, Charcoal, sans-serif;
+}
+
+h1 {
+    font-size: 4rem;
+    text-shadow: 1px 2px 3px rgba(0,10,30,.5);
+}
+h2 {
+    font-size: 2.5rem;
+}
+h3 {
+    font-size: 1.25rem;
+}
+
 img {
     width: 100%;
+}
+
+header {
+    margin: -1rem -1rem 1rem;
+    padding: 10vh 1rem;
+    background-color: #f3753b;
+    color: white;
+}
+
+header, footer {
+    text-align: center;
+}
+
+.title {
+    letter-spacing: 1px;
+}
+
+main {
+    hyphens: auto;
 }
